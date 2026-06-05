@@ -1,0 +1,22 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.avatar{
+    width: 150px;
+}
+
+.card{
+    width: 400px;
+    border-bottom: 8px solid rgb(163, 163, 242);
+    background-color: oklch(91.242% 0.02629 239.214);
+    margin: 30px auto 0px auto; /*  remember clock and another format is {margin: ver hor;}   */
+    padding: 20px;
+    display: flex; 
+    justify-content: space-around;
+    
+}
+
+.text{
+    text-align: center;
+}
